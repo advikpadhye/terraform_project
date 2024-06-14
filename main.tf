@@ -12,7 +12,7 @@ resource "aws_instance" "web_instance" {
    network_interface_id = aws_netwrok_interface.test_interface.id
    device_index = 0
  tags = {
-    Name = "rod_tag"
+    Name = "prod_tag"
    }
 }
 
